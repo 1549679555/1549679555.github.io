@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="李佳豪QQ:154969555">
+    <meta name="email" content="1549679555@qq.com">
+    <title>世界因互联网美丽/人生因互联网完满/</title>
+    <meta name="keywords" content="phpStudy">
+    <meta name="description" content="一次性安装，无须配置即可使用，是非常方便、好用的PHP调试环境。该程序绿色小巧简易迷你仅有32M，有专门的控制面板。总之学习PHP只需一个包。对学习PHP的新手来说，WINDOWS下环境配置是一件很困难的事；对老手来说也是一件烦琐的事。因此无论你是新手还是老手，该程序包都是一个不错的选择。">
+    <!--引入Font Awesome字体库样式表-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--引入guojian.min.css组件样式表-->
+    <link rel="stylesheet" href="css/guojian.min.css">
+    <!--引入style.css自定义样式表-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--引入jquery.min.js组件脚本-->
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <style type="text/css">
+        body {background-image:none;}
+        .gj-content .gj-cont pre, .gj-zp-cont .gj-cont pre {padding: 10px;background-color: #f5f5f5;border-radius: 5px;}
+    </style>
+</head>
+
+<body>
+
+<!--GJ-UI组件模块html代码开始-->
+<nav class="gj-nav1 gcl-yh">
+    <!--响应式导航栏-->
+    <div class="gnav gclear">
+        <div class="gj-logo gj-left">
+            <a href="https://1549679555.github.io" title="李佳豪的陋居" style="color:#fff;font-size:30px;letter-spacing: 2px;margin: 4px 0;">李佳豪的陋居</a>
+        </div>
+        <i class="gbar fa fa-bars" aria-hidden="true"></i>
+        <ul class="gnav-ul gj-right">
+            <li><a href="https://1549679555.github.io"><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
+            <li class="gxz">
+                <a href="index1.html">知识干货</a>
+            </li>
+            <li>
+                <a href="index2.html">我的作品</a>
+            </li>
+            <li>
+                <a href="index3.html">谈天说地</a>
+            </li>
+            <li>
+                <a href="index4.html">心情说说</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>    <div class="gcont">
+    <div class="row">
+        <div class="gj-lg-8">
+
+            <div class="gj-wk gcl-hb">
+                <!--内容页模块-->
+                <nav class="gj-ljdh">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <a href="https://1549679555.github.io">首页</a> &gt; <a href="index1.html" title="知识干货">知识干货</a>                    </nav>
+                <div class="gj-body gj-content">
+                    <div class="gj-title">
+                        <h3>HTTP灵魂拷问，你了解你的每次请求吗？（第二章）</h3>
+                        <span>第一次修改时间：2020-04-11 22：55</span>
+                        <a href="javascript:;" target="_blank">已编辑</a>
+                        <span class="hidden-xs">编辑：李佳豪</span>
+                        <span>阅读：101次</span>
+                        <script>
+                            window._bd_share_config = {
+                                "common": {
+                                    "bdSnsKey": {},
+                                    "bdText": "",
+                                    "bdMini": "2",
+                                    "bdMiniList": false,
+                                    "bdPic": "",
+                                    "bdStyle": "0",
+                                    "bdSize": "24"
+                                },
+                                "share": {}
+                            };
+                            with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                        </script>
+                    </div>
+                    <div class="gj-cont">
+                        <p>说自己的是Java Web程序员，每天和HTTP协议打交道，你对它到底了解多少？
+                            理解HTTP对你了解整个交互过程至关重要，建议细品-精度，了解过后，你的每一次请求在你眼中都是透明的。
+                            每次请求就好比过海关，你要严格监管！</p>
+                        <h3>如果你希望从大树上收获果子，那么请在十年前种下它，要么就今天种下它！</h3>
+                        <h5>005: 简要概括一下 HTTP 的特点？HTTP 有哪些缺点？</h5>
+                        <p>HTTP 特点</p>
+                        <p>1.灵活可扩展，主要体现在两个方面。一个是语义上的自由，只规
+                            定了基本格式，比如空格分隔单词，换行分隔字段，其他的各个部分都没有严格的语法限制。
+                            另一个是传输形式的多样性，不仅仅可以传输文本，还能传输图片、视频等任意数据，非常方便。</p>
+                        <p>2.可靠传输。HTTP 基于 TCP/IP，因此把这一特性继承了下来。这属于 TCP 的特性，不具体介绍了。</p>
+
+                        <p>3.可靠传输。HTTP 基于 TCP/IP，因此把这一特性继承了下来。这属于 TCP 的特性，不具体介绍了。</p>
+                        <p>4.无状态。这里的状态是指通信过程的上下文信息，而每次 http 请求都是独立、无关的，默认不需要保留状态信息。</p>
+
+                        <p>HTTP 缺点</p>
+
+                        <p>无状态</p>
+                        <p>所谓的优点和缺点还是要分场景来看的，对于 HTTP 而言，最具争议的地方在于它的无状态。
+
+                            在需要长连接的场景中，需要保存大量的上下文信息，以免传输大量重复的信息，那么这时候无状态就是 http 的缺点了。
+
+                            但与此同时，另外一些应用仅仅只是为了获取一些数据，不需要保存连接上下文信息，无状态反而减少了网络开销，成为了 http 的优点。</p>
+
+                        <p>明文传输</p>
+
+                        <p>即协议里的报文(主要指的是头部)不使用二进制数据，而是文本形式。</p>
+                        <p>这当然对于调试提供了便利，但同时也让 HTTP 的报文信息暴露给了外界，给攻击者也提供了便利。WIFI陷阱就是利用 HTTP 明文传输的缺点，诱导你连上热点，然后疯狂抓你所有的流量，从而拿到你的敏感信息。</p>
+
+                        <p>队头阻塞问题</p>
+
+                        <p>当 http 开启长连接时，共用一个 TCP 连接，同一时刻只能处理一个请求，那么当前请求耗时过长的情况下，其它的请求只能处于阻塞状态，也就是著名的队头阻塞问题。接下来会有一小节讨论这个问题。</p>
+                        <h5>006: 对 Accept 系列字段了解多少？</h5>
+                        <!--<p><img title="1517476301723875.png" alt="phpstudy.png" src="img/http001.jpg"></p></li>-->
+
+                        <p>对于Accept系列字段的介绍分为四个部分: 数据格式、压缩方式、支持语言和字符集。</p>
+                        <p>数据格式</p>
+                        <p>上一节谈到 HTTP 灵活的特性，它支持非常多的数据格式，那么这么多格式的数据一起到达客户端，客户端怎么知道它的格式呢？</p>
+                        <p>当然，最低效的方式是直接猜，有没有更好的方式呢？直接指定可以吗？v</p>
+                        <p>答案是肯定的。不过首先需要介绍一个标准——MIME(Multipurpose Internet Mail Extensions, 多用途互联网邮件扩展)。它首先用在电子邮件系统中，让邮件可以发任意类型的数据，这对于 HTTP 来说也是通用的。</p>
+                        <p>因此，HTTP 从MIME type取了一部分来标记报文 body 部分的数据类型，这些类型体现在Content-Type这个字段，当然这是针对于发送端而言，接收端想要收到特定类型的数据，也可以用Accept字段。</p>
+                        <p>具体而言，这两个字段的取值可以分为下面几类:
+
+                        </p>
+                        <p>text：text/html, text/plain, text/css /p>
+                        <p>image: image/gif, image/jpeg, image/png</p>
+                        <p>audio/video: audio/mpeg, video/mp4</p>
+                        <p>application: application/json, application/javascript, application/pdf, application/octet-stream</p>
+                        <p>压缩方式</p>
+                        <p>当然一般这些数据都是会进行编码压缩的，采取什么样的压缩方式就体现在了发送方的Content-Encoding字段上， 同样的，接收什么样的压缩方式体现在了接受方的Accept-Encoding字段上。这个字段的取值有下面几种：</p>
+                        <p>gzip: 当今最流行的压缩格式</p>
+                        <p>deflate: 另外一种著名的压缩格式</p>
+                        <p>br: 一种专门为 HTTP 发明的压缩算法</p>
+                        <p>// 发送端
+                            Content-Encoding: gzip
+                            // 接收端
+                            Accept-Encoding: gizp</p>
+                        <p>支持语言</p>
+                        <p>对于发送方而言，还有一个Content-Language字段，在需要实现国际化的方案当中，可以用来指定支持的语言，在接受方对应的字段为Accept-Language。如:</p>
+                        <p>// 发送端
+                            Content-Language: zh-CN, zh, en
+                            // 接收端
+                            Accept-Language: zh-CN, zh, en</p>
+                        <p>字符集</p>
+                        <p>最后是一个比较特殊的字段, 在接收端对应为Accept-Charset，指定可以接受的字符集，而在发送端并没有对应的Content-Charset, 而是直接放在了Content-Type中，以charset属性指定。如:</p>
+                        <p>// 发送端
+                            Content-Type: text/html; charset=utf-8
+                            // 接收端
+                            Accept-Charset: charset=utf-8</p>
+                        <p>最后以一张图来总结一下吧:</p>
+                        <p><img title="1517476301723875.png" alt="phpstudy.png" src="img/html2.01.png"></p></li>
+                        <h5>007: 对于定长和不定长的数据，HTTP 是怎么传输的？</h5>
+                        <p>定长包体</p>
+                        <p>对于定长包体而言，发送端在传输的时候一般会带上Content-Length, 来指明包体的长度。
+                            我们用一个nodejs服务器来模拟一下:</p>
+                        <p><img title="1517476301723875.png" alt="phpstudy.png" src="img/html2.02.png"></p></li>
+                        <p>启动后访问: localhost:8081。</p>
+                        <p>浏览器中显示如下:</p>
+                        <p>helloworld</p>
+                        <p>这是长度正确的情况，那不正确的情况是如何处理的呢？</p>
+                        <p>我们试着把这个长度设置的小一些:</p>
+                        <p>res.setHeader('Content-Length', 8);</p>
+                        <p>重启服务，再次访问，现在浏览器中内容如下:</p>
+                        <p>hellowor</p>
+                        <p>那后面的ld哪里去了呢？实际上在 http 的响应体中直接被截去了。</p>
+                        <p>然后我们试着将这个长度设置得大一些:</p>
+                        <p>res.setHeader('Content-Length', 12);</p>
+                        <p>直接无法显示了。可以看到Content-Length对于 http 传输过程起到了十分关键的作用，如果设置不当可以直接导致传输失败。</p>
+                        <p>不定长包体</p>
+                        <p>上述是针对于定长包体，那么对于不定长包体而言是如何传输的呢？</p>
+                        <p>这里就必须介绍另外一个 http 头部字段了:</p>
+                        <p>Transfer-Encoding: chunked</p>
+                        <p>表示分块传输数据，设置这个字段后会自动产生两个效果:</p>
+                        <p>Content-Length 字段会被忽略</p>
+                        <p>基于长连接持续推送动态内容</p>
+                        <p>们依然以一个实际的例子来模拟分块传输，nodejs 程序如下:</p>
+                        <p><img title="1517476301723875.png" alt="phpstudy.png" src="img/html2.03.png"></p></li>
+                        <p>用 telnet 抓到的响应如下:</p>
+                        <p><img title="1517476301723875.png" alt="phpstudy.png" src="img/html2.04.png"></p></li>
+                        <p>注意，Connection: keep-alive及之前的为响应行和响应头，后面的内容为响应体，这两部分用换行符隔开。</p>
+                        <p>响应体的结构比较有意思，如下所示:</p>
+                        <p><img title="1517476301723875.png" alt="phpstudy.png" src="img/html2.05.png"></p></li>
+                        <p>最后是留有有一个空行的，这一点请大家注意。</p>
+                        <p>以上便是 http 对于定长数据和不定长数据的传输方式。</p>
+                        <p>待续。。。。。。</p>
+                        <!-- <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+                         <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>-->
+                        <h4><a href="https://1549679555.github.io" title="李佳豪的陋居" >还有很多很多的总结，请参看下文！</a></h4>
+                    </div>
+                    <div class="gcont-page">
+                        <div class="gj-lg-6">上一篇：<a href="http.html">HTTP灵魂拷问，你了解你的每次请求吗？（第一章）</a></div>
+                        <div class="gj-lg-6">下一篇：<a href="13.html">我有一个梦想--为何不朽？</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gj-wk gcl-hb">
+                <!--内容页版权模块-->
+            </div>
+        </div>
+        <div class="gj-lg-4">
+            <div class="gj-wk gcl-hb">
+                <!--搜索模块-->
+                <div class="gj-bt">
+                    <h3><i class="fa fa-search" aria-hidden="true"></i> 站内搜索</h3>
+                </div>
+                <div class="gj-body gj-ss1">
+                    <form action="https://www.guojian945.com/index.php">
+                        <input type="hidden" name="m" value="search">
+                        <input type="hidden" name="c" value="index">
+                        <input type="hidden" name="a" value="init">
+                        <input type="hidden" name="modelid" value="1" id="modelid">
+                        <input type="text" name="q" placeholder="请输入搜索关键词···">
+                        <button id="searchbtn" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="gj-wk gcl-hb hidd-sm hidd-md">
+                <!--标签模块-->
+                <div class="gj-bt">
+                    <h3><i class="fa fa-calendar" aria-hidden="true"></i> 文章归档</h3>
+                </div>
+                <div class="gj-body gj-link1">
+                    <ul>
+                        <li><a href="1517475072.html">2020年03月(3)</a></li>
+                        <li><a href="1516872636.html">2020年03月(3)</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="gj-wk gcl-hb">
+                <!--侧栏-图文列表-->
+                <div class="gj-bt">
+                    <h3><i class="fa fa-thumbs-up" aria-hidden="true"></i> 博主推荐</h3>
+                </div>
+                <div class="gj-body gli-tuw1">
+                    <div class="gtw-li gclear">
+                        <div class="gtw-img gj-left"> <a href="https://1549679555.github.io/%E5%BF%83%E6%83%85%E6%96%87%E7%AB%A0/dream.html"><img src="static/picture/180313112951280.jpg" alt=""></a> </div>
+                        <div class="gtw-body"> <a href="">
+                            <h4>我有一个梦想</h4>
+                        </a> <span><i class="fa fa-clock-o"> 2018-02-01</i></span> <span><i class="fa fa-eye"> 2498</i></span> </div>
+                    </div>
+                </div>
+                <div class="gj-body gli-tuw1">
+                    <div class="gtw-li gclear">
+                        <div class="gtw-img gj-left"> <a href="7.html"><img src="static/picture/180313113309948.jpg" alt=""></a> </div>
+                        <div class="gtw-body"> <a href="7.html">
+                            <h4>我有一个梦想--为何不朽？</h4>
+                        </a> <span><i class="fa fa-clock-o"> 2018-01-27</i></span> <span><i class="fa fa-eye"> 2148</i></span> </div>
+                    </div>
+                </div>
+                <div class="gj-body gli-tuw1">
+                    <div class="gtw-li gclear">
+                        <div class="gtw-img gj-left"> <a href="5.html"><img src="static/picture/180313113835757.jpg" alt=""></a> </div>
+                        <div class="gtw-body"> <a href="5.html">
+                            <h4>李佳豪的前端踩坑日记</h4>
+                        </a> <span><i class="fa fa-clock-o"> 2018-01-27</i></span> <span><i class="fa fa-eye"> 2969</i></span> </div>
+                    </div>
+                </div>
+                <div class="gj-body gli-tuw1">
+                    <div class="gtw-li gclear">
+                        <div class="gtw-img gj-left"> <a href="4.html"><img src="static/picture/180125053634150.jpg" alt=""></a> </div>
+                        <div class="gtw-body"> <a href="4.html">
+                            <h4>给web前端开发人员的一些建议</h4>
+                        </a> <span><i class="fa fa-clock-o"> 2018-01-25</i></span> <span><i class="fa fa-eye"> 1458</i></span> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gj-wk gcl-hb">
+                <!--标签模块-->
+                <div class="gj-bt">
+                    <h3><i class="fa fa-tags" aria-hidden="true"></i> 热门标签</h3>
+                </div>
+                <div class="gj-body gj-link3">
+                    <ul>
+                        <li><a href="51.html" target="_blank">web前端</a></li>
+                        <li><a href="41.html" target="_blank">GJ-UI</a></li>
+                        <li><a href="22.html" target="_blank">YzmCMS</a></li>
+                        <li><a href="13.html" target="_blank">我有一个梦想</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gj-gg">广告位不存在！</div>
+            <div class="gj-wk gcl-hb">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hidd-xs gcl-yh" style="border: 0">
+    <!--返回顶部-->
+    <a class="gj-top" style="z-index: 1030;"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+</div>
+
+<!--GJ-UI组件模块html代码结束-->
+
+
+
+<!--引入guojian.min.js组件脚本-->
+<script src="js/guojian.min.js" type="text/javascript"></script>
+
+<!--GJ-UI组件模块js代码开始-->
+<script>
+    /*GJ-UI响应式导航栏*/
+    $(document).ready(function() {
+        $(".gbar").click(function() {
+            $(".gnav-ul").slideToggle("slow");
+            return false
+        })
+    });
+</script>
+<script>
+    /*返回顶部开始*/
+    jQuery(function($) {
+        $('.gj-top').toTop({
+            autohide: true,
+            offset: 320,
+            speed: 500,
+            right: 15,
+            bottom: 15
+        })
+    });
+</script>    <script type="js/jquery-1.8.2.min.js" ></script>
+<script type="js/js.js"></script>
+<script type="text/javascript" src="js/jquery.qqFace.js"></script>
+<script type="text/javascript">
+    $(function() {
+        //评论QQ表情
+        $('.emotion').qqFace({
+            assign: 'content',
+            path: 'https://www.guojian945.com/common/static/images/face/'
+
+        });
+    });
+</script>
+</body>
+
+</html>
